@@ -27,6 +27,7 @@ public class CheckoutPage extends Waits {
 
 
 
+
     public String VerifyCheckoutPage(){
         waitForElementClickable(checkoutIcon).click();
          return DriverFactory.getDriver().getCurrentUrl();
@@ -66,6 +67,7 @@ public class CheckoutPage extends Waits {
     }
     public String getCheckoutOverviewError(){
         return DriverFactory.getDriver().findElement(errorCheckoutOverview).getText();
+      //  System.out.println();
     }
 
 }
