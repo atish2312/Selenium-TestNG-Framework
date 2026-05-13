@@ -69,5 +69,4 @@ public class CheckoutPage extends Waits {
         return DriverFactory.getDriver().findElement(errorCheckoutOverview).getText();
       //  System.out.println();
     }
-
 }
